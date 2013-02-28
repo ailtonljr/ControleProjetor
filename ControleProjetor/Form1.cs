@@ -18,9 +18,9 @@ namespace ControleProjetor
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonOn_Click(object sender, EventArgs e)
         {
-            byte[] cmd = new byte[] { 0x7E, 0x50, 0x4e, 0x0D };
+            byte[] cmd = new byte[] { 0x7E, 0x50, 0x4e, 0x0D, 0x56, 0x39, 0x39, 0x53, 0x30, 0x30, 0x30, 0x31, 0x0D };
             sendCommand(cmd);
            
             
@@ -50,19 +50,17 @@ namespace ControleProjetor
                 }
                 finally
                 {
-                    try{
-
-						serialPort1.Close();
-					}
-					catch(Exception)
-					{}
+                    serialPort1.Close();
                 }
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonOff_Click(object sender, EventArgs e)
         {
-            byte[] cmd = new byte[] { 0x7E, 0x50, 0x46, 0x0D };
+            //Vivitek D5 - 0x7E, 0x50, 0x46, 0x0D
+            //Vivitek D8 - 0x56, 0x39, 0x39, 0x53, 0x30, 0x30, 0x30, 0x32, 0x0D 
+
+            byte[] cmd = new byte[] { 0x7E, 0x50, 0x46, 0x0D, 0x56, 0x39, 0x39, 0x53, 0x30, 0x30, 0x30, 0x32, 0x0D };
             sendCommand(cmd);
         }
 

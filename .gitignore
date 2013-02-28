@@ -1,4 +1,6 @@
 ControleProjetor/bin/
+ControleProjetor/obj/
+ControleProjetor/publish/
 *.user
 *.suo
 *.userprefs
