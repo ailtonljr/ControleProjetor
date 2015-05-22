@@ -1,8 +1,8 @@
 # Controle Projetor
 
-Controle de projetores multimÌdia atravÈs da porta serial.
+Controle de projetores multim√≠dia atrav√©s da porta serial.
 
-## Requisitos para compilaÁ„o
+## Requisitos para compila√ß√£o
 
 Abra o projeto no Visual Studio 2010 ou superior.
 
@@ -10,12 +10,14 @@ Abra o projeto no Visual Studio 2010 ou superior.
 
 O programa foi preparado para trabalhar com os seguintes projetores:
 
-* Vivitek SÈrie D5
+* Vivitek S√©rie D5
 * Vivitek D851
 
-## Manuais da comunicaÁ„o serial
+## Manuais da comunica√ß√£o serial
 
-AtravÈs do site do fabricante È possÌvel encontrar os manuais contendo os comandos de configuraÁ„o do projetor. Abaixo a lista dos manuais utilizados no projeto.
+Atrav√©s do site do fabricante √© poss√≠vel encontrar os manuais contendo os comandos de configura√ß√£o do projetor. Abaixo a lista dos manuais utilizados no projeto.
 
-* [Vivitek SÈrie D5](http://www.vivitekusa.com/forcedown.php?file_path=assets/pdf/&file_name=Vivitek_RS-232c_D5xx.pdf)
+* [Vivitek S√©rie D5](http://www.vivitekusa.com/forcedown.php?file_path=assets/pdf/&file_name=Vivitek_RS-232c_D5xx.pdf)
 * [Vivitek D851](http://www.vivitekusa.com/forcedown.php?file_path=assets/pdf/&file_name=Vivitek_RS-232c_D85x.pdf)
+* 
+Coment√°rio da aula de 22/05/2015
