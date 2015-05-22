@@ -19,5 +19,3 @@ Através do site do fabricante é possível encontrar os manuais contendo os com
 
 * [Vivitek Série D5](http://www.vivitekusa.com/forcedown.php?file_path=assets/pdf/&file_name=Vivitek_RS-232c_D5xx.pdf)
 * [Vivitek D851](http://www.vivitekusa.com/forcedown.php?file_path=assets/pdf/&file_name=Vivitek_RS-232c_D85x.pdf)
-* 
-Comentário da aula de 22/05/2015
