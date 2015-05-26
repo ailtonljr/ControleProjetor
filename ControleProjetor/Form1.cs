@@ -66,8 +66,10 @@ namespace ControleProjetor
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Comentário
             this.MaximumSize = this.Size;
             this.MinimumSize = this.Size;
+
         }
     }
 }
